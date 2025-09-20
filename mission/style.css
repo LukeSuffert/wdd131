@@ -1,0 +1,50 @@
+body {
+    margin: auto;
+    width: 50%;
+}
+
+:root {
+    --heading-size: 40px;
+    --paragraph-size: 25px;
+}
+
+
+header h1 {
+    text-align: center;
+    font-size: var(--heading-size);
+}
+
+header h2 {
+    text-align: center;
+    font-size: var(--paragraph-size);
+    color: blue;
+    border-bottom: gray 1px solid;
+}
+
+/*h3 {
+    border: none;
+  border-top: 1px solid gray;
+  margin-top: 20px;
+  width: 80%;
+}*/
+
+div {
+    font-size: var(--paragraph-size);
+}
+
+#italiano {
+    font-style: italic;
+}
+
+li {
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    padding-bottom: 10px;
+    
+}
+
