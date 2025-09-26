@@ -1,12 +1,10 @@
-const newParagraph = document.createElement('p');
-newParagraph.InnerText = "Added with JavaScript!";
-document.body.appendChild(newParagraph);
+const newP = document.createElement("p");
+newP.textContent = "This is a new paragraph added by JavaScript.";
+document.body.append(newP);
 
-const newImage = document.createElement("img");
-newImage.setAttribute("src", "https://picsum.photos/200");
-newImage.setAttribute("alt", "Random image from picsum.");
-document.body.appendChild(newImage);
 
-const newSection = document.createElement("section");
-newSection.innerHTML = "<h2>DOM Basics</h2><p>This was added through Javascript</p>";
-document.body.appendChild(newSection);
+const newImg = document.createElement("img");
+newImg.src = "https://picsum.photos/200"; /* this one not always works */
+newImg.setAttribute("alt" , "Image from Picsum"); /* this one always works */
+document.body.append(newImg);
+
