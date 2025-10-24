@@ -1,5 +1,5 @@
 
-const movies = [
+const movie = [
       {
         title: "Spider-Man: Into the Spider-Verse",
         date: "Dec 14, 2018",
@@ -54,9 +54,9 @@ const movies = [
     </article>`;
   }
 
-  const htmlStrings = movies.map(movieTemplate);
-  document.querySelector('movie.list').innerHTML = htmlStrings.join('\n');
+  const htmlStrings = movie.map(movieTemplate);
+  document.querySelector('#movie-list').innerHTML = htmlStrings.join('\n');
 
-console.log(htmlStrings(movies[0]));
+console.log(htmlStrings[0]);
 
           
