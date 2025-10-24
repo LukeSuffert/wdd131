@@ -15,7 +15,7 @@ const movie = [
         date: "December 14, 2001",
         description: "Based on the true story of Elder John H. Groberg, a missionary in Tonga in the 1950s, this film tells a powerful story of faith, hardship, and miracles.",
         imgSrc: "https://wddbyui.github.io/wdd131/images/heaven.png",
-        imgAlt: "Poster for The Other Side of Heaven showing a missionary and tropical landscape",
+        imgAlt: "Poster for The Other Side of Heaven showing a missionary and tropical landscape.",
         ages: "10+",
         genre: "Drama/Religious",
         stars: "⭐⭐⭐⭐"
