@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- form-demo.html -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="form-demo.css">
+    <script src="form.js" defer></script>
+  </head>
+  <body>
+    <header><h1>Checkout</h1></header>
+    <main>
+      <div class="errors"></div>
+      <form id="checkoutForm" action="completed.html" method="get">
+        <p>
+          <label for="name">Full Name</label>
+          <input id="name" 
+          name="name" 
+          type="text" 
+          placeholder="Enter your full name" required>
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input id="email" 
+          name="email" 
+          type="email" 
+          placeholder="Enter your email address" required>
+        </p>
+        <p>
+          <label for="address">Address</label>
+          <input id="address" 
+          name="address" 
+          type="text" 
+          placeholder="Enter your street address" required>
+        </p>
+        <p>
+          <label for="payment">Payment Method</label>
+          <select id="payment" name="paymentMethod" required>
+            <option value="" disabled selected>Select a payment method</option>
+            <option value="creditCard">Credit Card</option>
+            <option value="paypal">PayPal</option>
+          </select>
+        </p>
+        <p class="hide" id="creditCardInfo">
+            <label for="creditCardNumber">Credit Card Number: </label>
+            <input id="creditCardNumber"
+             name="creditCardNumber" 
+             type="text"
+             placeholder="Enter your CC number" 
+             pattern="[0-9]{16}"
+             required>
+        </p>
+        <p class="hide" id="paypalInfo">
+          <label for="paypalUsername">Paypal Username: </label>
+          <input type="text"
+          id="paypalUsername"
+          name="paypalUsername"
+          placeholder="Enter your Paypal username"
+          required>
+      
+
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+          <button type="reset">Cancel</button>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
