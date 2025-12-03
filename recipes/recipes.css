@@ -52,8 +52,8 @@ footer {
  --secondary-color: #59c3c3;
  --text-dark: #333;
  --text-light: #ebebeb;
- --primary-font: Arial, Helvetica,sans-serif;
- --secondary-font: "Amatic SC";
+ --primary-font: 'Lato', sans-serif;
+ --secondary-font: "Noto Sans", sans-serif;
  }
 
 
@@ -63,4 +63,11 @@ footer {
 
  header h1 {
     width: 300px;
+ }
+
+ @media (max-width: 400px) {
+      body {
+         width: 100%;
+      }
+      
  }
