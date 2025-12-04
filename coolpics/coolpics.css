@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #4a90e2;
+    --headline-font: 'Mooli', cursive;
+    --body-font: Arial, sans-serif;
+
+}
+
 img {
     max-width: 100%;
     height: 250px;
